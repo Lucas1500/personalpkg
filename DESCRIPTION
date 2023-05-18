@@ -1,0 +1,16 @@
+Package: lucaspkg
+Type: Package
+Title: Log Summed Exponentials
+Version: 0.1.0
+Author: Lucas
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: Calculate the log summed exponentials of the given vector.
+    With no vector given, the default vector is a sequence of positive
+    integers from 1 to the provided length n by increment of 1.
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+RoxygenNote: 7.2.3
